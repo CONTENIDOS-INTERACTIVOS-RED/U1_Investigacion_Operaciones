@@ -17,9 +17,10 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FDF5D2
   &-2
-    background-color: #FFFBE8
+    background-color: #D3E3F8
+
   &-3
     background-color: #F0E9F6
   &-4
@@ -49,10 +50,19 @@
     padding-left: 1.5rem
     padding-right: 1.5rem
 
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
-    background-position: top
+    background-position: bottom
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
