@@ -252,7 +252,7 @@
           #Actividad                
             <Actividad :cuestionario="cuestionario"/>
 
-      .bg-full-width.border-top.color-primario.d-none
+      .bg-full-width.border-top.color-primario
         .p-4.p-md-5
           h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
           .row.material-complementario
@@ -260,16 +260,16 @@
               p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
   
               p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
                 img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/39452" target="_blank" rel="noopener noreferrer") Martínez Salazar, I. A. & Vértiz Camarón, G. (2015). Investigaciones de operaciones: ( ed.). Grupo Editorial Patria.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=syAglylSd7c" target="_blank" rel="noopener noreferrer") Acercar Ingeniería (2014, 7 de julio). Entrevista Jorge Vera - Jefe de Programa - Investigación Operativa [Video]. YouTube.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.desmos.com/?lang=es" target="_blank" rel="noopener noreferrer") Desmos - Simulaciones de optimización.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

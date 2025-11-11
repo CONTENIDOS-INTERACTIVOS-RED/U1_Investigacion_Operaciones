@@ -33,7 +33,7 @@
           .row
             .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
               h4 Decisiones
-              p Se usa la ecuación y= m x + b, donde m= 2 y b = 1. Se eligen dos puntos: para x =  0, y=1; para x=1, y=3. Graficando los puntos (0,1) y (1,3) y uniéndolos con una recta, se obtiene la representación de la función.
+              p Son las acciones que el tomador de decisiones puede controlar y que afectan el comportamiento del sistema. Por ejemplo, decidir la cantidad de productos a fabricar, establecer precios o determinar las rutas de distribución más eficientes. Las decisiones deben ser coherentes con los objetivos estratégicos de la organización.
             .col-md-6.col-lg-5.col-xl-4.order-1
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema2/tab-1.png', alt='')
@@ -388,7 +388,7 @@
 
             tr
 
-              td #[strong Limitaciones]
+              td #[strong Ventajas]
 
               td
                 ul.lista-ul--color.color-dark.mb-4
@@ -419,6 +419,37 @@
                   li.mb-2
                     i.fas.fa-arrow-circle-right
                     | Modela procesos complejos modernos, como comercio electrónico.
+
+            tr
+
+              td #[strong Limitaciones]
+
+              td
+                ul.lista-ul--color.color-dark.mb-4
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Baja adaptabilidad a cambios o incertidumbres.
+
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Puede simplificar excesivamente problemas complejos.
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | No apto para entornos dinámicos.
+
+              td
+                ul.lista-ul--color.color-dark.mb-4
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Mayor complejidad matemática y computacional.
+
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Requiere herramientas avanzadas de simulación.
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Los resultados pueden ser difíciles de interpretar.
+
 
             tr
 
@@ -506,6 +537,7 @@
         .px-4.p-md-5
           .row.justify-content-center.align-items-center
             .col-lg-8
+              h3 Modelos determinístico y probabilístico
               p.mb-4(data-aos="fade-right") La aplicación de modelos determinísticos y probabilísticos en la investigación de operaciones permite optimizar la toma de decisiones en diferentes contextos empresariales e industriales. En el PDF #[strong Modelos determinístico y probabilístico], se analizan casos prácticos donde se emplean estos modelos para resolver problemas de optimización en la producción y la gestión de inventarios. A través del modelo determinístico, se estudia cómo maximizar la rentabilidad en una empresa manufacturera mediante la asignación eficiente de recursos. Por otro lado, el modelo probabilístico aborda la incertidumbre en la demanda de productos, permitiendo a una tienda minorista calcular el inventario óptimo para minimizar costos y maximizar utilidades. Este material proporciona herramientas fundamentales para comprender la formulación, resolución e implementación de modelos cuantitativos en la toma de decisiones estratégicas.
       
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
@@ -529,7 +561,7 @@
               .custom-image-card-2.h-100
                 img.custom-image-card__image(src="@/assets/curso/tema2/8.png" alt="")
                 .custom-image-card__text.p-4
-                  h5.mb-2.text-center Predicción de la demanda
+                  h5.mb-2.text-center Modelos determinísticos
                   p.mb-0 Ofrecen soluciones exactas y son ideales para entornos predecibles.
             .col-lg-6.mb-4(data-aos="zoom-in-down")
               .custom-image-card-2.h-100
@@ -543,7 +575,7 @@
 
 
 
-      .bg-full-width.border-top.color-primario.d-none
+      .bg-full-width.border-top.color-primario
         .p-4.p-md-5
           h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
           .row.material-complementario
@@ -551,8 +583,20 @@
               p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
   
               p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.uax.com/blog/ingenieria/relacion-entre-ia-y-big-data" target="_blank" rel="noopener noreferrer") Universidad Alfonso X el Sabio (2023). Relación entre IA y Big Data.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/116613" target="_blank" rel="noopener noreferrer") García Llinás, G. & González Ariza, Á. L. (2015). Manual práctico de investigación de operaciones I: (4 ed.). Universidad del Norte.
+
+              p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.youtube.com/watch?v=XBywDSGuKAw" target="_blank" rel="noopener noreferrer") Administración en línea. (2023). Historia del Marketing
+                a(href="https://youtu.be/b7izsuWgTY4?si=psS7Sudv-2pyrtbK" target="_blank" rel="noopener noreferrer") Lujo, C. (2020, 7 de julio) INVESTIGACIÓN OPERATIVA 1 CLASE#1. [Video] YouTube.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-link.svg' :style="{'max-width':'16px'}")
+                a(href="https://intelequia.com/es/blog/post/el-impacto-de-la-ia-en-la-toma-de-decisiones-empresariales" target="_blank" rel="noopener noreferrer") Intelequia (2023). El impacto de la IA en la toma de decisiones empresariales.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

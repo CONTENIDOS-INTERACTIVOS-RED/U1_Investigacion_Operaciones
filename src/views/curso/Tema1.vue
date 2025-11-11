@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Desigualdades e Inecuaciones, valor absoluto'")
+  BannerInterno(:subTitulo="'1. Introducción a la Investigación de Operaciones'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.justify-content-center.align-items-start.mb-5
@@ -27,7 +27,7 @@
           p(numero="1" titulo="1940s") Se desarrollan los primeros modelos de IO aplicados a la planificación logística y militar durante la Segunda Guerra Mundial.
           p(numero="2" titulo="1950s") Se introduce la programación lineal y el método simplex, que permiten resolver problemas de optimización con restricciones.
           p(numero="3" titulo="1960s") La IO se convierte en una disciplina académica, con la creación de departamentos especializados en universidades de prestigio.
-          p(numero="4" titulo="1970s") La IO se convierte en una disciplina académica, con la creación de departamentos especializados en universidades de prestigio.
+          p(numero="4" titulo="1970s") Se amplían su aplicaciones con la teoría de colas, la simulación y la programación dinámica.
 
         
       .col-lg-4
@@ -121,7 +121,7 @@
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema1/icono-1.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Gestión de la cadena de suministro
-                p.text-center Diseño de turnos y distribución del trabajo de manera eficiente, para aumentar la productividad y mejorar el bienestar de los empleados.
+                p.text-center Optimización del transporte, almacenamiento y distribución de productos, para minimizar costos y mejorar la satisfacción del cliente.
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema1/icono-2.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Gestión de inventarios
@@ -275,6 +275,18 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=ArhP40Fwpyw" target="_blank" rel="noopener noreferrer") Rojas Lugo Mariana (2014). ¿Qué es la Investigación de Operaciones?
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-link.svg' :style="{'max-width':'16px'}")
+              a(href="https://unisabaneta.edu.co/2024/06/13/descubre-como-la-inteligencia-artificial-y-el-big-data-estan-revolucionando-el-mundo-y-mejorando-vidas/" target="_blank" rel="noopener noreferrer") Universidad de Sabaneta (2024). Descubre cómo la Inteligencia Artificial y el Big Data están revolucionando el mundo y mejorando vidas.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/audio.svg' :style="{'max-width':'16px'}")
+              a(href="https://open.spotify.com/episode/2POvlcuPiqDtWl71Fv4WKl?si=fd0f76f48a804814" target="_blank" rel="noopener noreferrer") Mercado, E. (2021, 4 de septiembre). Investigación de operaciones [Podcast]. Spotify.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.datacamp.com/es/blog/ai-in-decision-making" target="_blank" rel="noopener noreferrer") DataCamp (2023). AI in decision making.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
